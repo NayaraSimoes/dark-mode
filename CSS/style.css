@@ -141,6 +141,10 @@ font-size: 2rem;
   background-color: #273035;
 }
 
+.dark .subtitle {
+  color: whitesmoke;
+}
+
 .dark .btn {
   background-color: #11171ac5;;
   color: white;
