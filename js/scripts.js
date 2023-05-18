@@ -6,6 +6,15 @@ function toggleDarkMode() {
 }
 
 //Load ligth or dark mode
+function loadTheme() {
+  const darkMode = localStorage.getItem("dark");
+
+  if(darkMode) {
+    toggleDarkMode();
+  }
+}
+
+loadTheme();
 
 changeThemeBtn.addEventListener("change", function () {
   toggleDarkMode();
@@ -16,4 +25,6 @@ changeThemeBtn.addEventListener("change", function () {
   if(document.body.classList.contains("dark")) {
     localStorage.setItem("dark", 1);
   }
-});
+}); 
+
+//não aguento mais estudar, quero é trabalhar logo
