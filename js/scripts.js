@@ -26,5 +26,3 @@ changeThemeBtn.addEventListener("change", function () {
     localStorage.setItem("dark", 1);
   }
 }); 
-
-//não aguento mais estudar, quero é trabalhar logo
